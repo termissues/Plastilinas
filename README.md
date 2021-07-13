@@ -7,11 +7,11 @@ _Creating a website for UAB Plastilinas | 2021_
 * Carouseles are boring, so we should think about something new
 
 ## Plan of finishing it
-* Create a website 
+* Create and fully finish a website 
 * Localhost it on XAMPP
-* Add it in my Wordpress
+* Add it to my Wordpress
 * Add PHP functions
-* Make it easy to edit
+* Make it easy to use/edit
 * Make post/news feed
 * Add safety plugins
 * Finish the project with a smile
