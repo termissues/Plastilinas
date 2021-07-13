@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+body {
+  background-color: white;
+}
+
+button,
+li,
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Nav bar Start */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background: blue;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+  color: rgb(214, 214, 214);
+  transition: all 0.3s ease 0s;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: #1437ff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #1453ff;
+}
+
+/* Nav bar End */
+
+/* Footer start */
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+@media (max-height:800px) {
+  footer {
+    position: static;
+  }
+
+  header {
+    padding-top: 40px;
+  }
+}
+
+/* Footer start */
+
+.footer {
+  background-color: blue;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px 60px 50px;
+  margin-top: 80px;
+}
+
+.footer-top {
+  padding: 80px 0 50px 0;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 6rem;
+  text-align: center;
+  -webkit-text-stroke-color: blue;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  margin-bottom: 100px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Left footer side */
+
+.footer .footer-left {
+  width: 30%;
+}
+
+.footer h3 {
+  color: white;
+  margin: 0;
+}
+
+/* Plastelinas logo for footer */
+
+.footer .footer-left img {
+  width: 30%;
+}
+
+/* Links in footer */
+
+.footer .footer-links {
+  color: white;
+  margin: 20px 0 12px;
+}
+
+.footer .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer .footer-links a:hover {
+  color: rgb(214, 214, 214);
+  transition: all 0.3s ease 0s;
+
+}
+
+.footer .footer-company-name {
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Center footer */
+
+.footer .footer-center {
+  width: 35%;
+}
+
+.footer_c_hover:hover {
+  color: rgb(214, 214, 214);
+  transition: all 0.3s ease 0s;
+}
+
+.footer .footer-center i {
+  background-color: #1437ff;
+  color: white;
+  font-size: 20px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.envelope-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer .footer-center p {
+  display: inline-block;
+  color: white;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* Right footer side */
+
+.footer .footer-right {
+  width: 30%;
+}
+
+.footer .footer-company-about {
+  line-height: 20px;
+  color: white;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer .footer-company-about span {
+  display: block;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer .footer-icons {
+  margin-top: 25px;
+}
+
+.footer .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #1437ff;
+  border-radius: 2px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+.footer .footer-icons a:hover {
+  background-color: #1453ff;
+  transition: all 0.3s ease 0s;
+}
+
+
+/* Responsive part for plastelinas footer */
+
+@media (max-width: 880px) {
+
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+
+}
+
+/* Footer end */
