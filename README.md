@@ -3,8 +3,8 @@ _Creating a website for UAB Plastilinas | 2021_
 
 ## Ideas
 * Should add some animations and transitions
-* More on hover things
-* Carouseles are boring, so we should think about something new
+* More on hover functions and maybe a JS game too 
+* Carousel is boring, so we should think about something new
 
 ## Plan of finishing it
 * Create and fully finish a website 
