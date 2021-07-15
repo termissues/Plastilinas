@@ -67,7 +67,6 @@ button:hover {
 /* Footer start */
 
 footer {
-  position: fixed;
   bottom: 0;
 }
 
@@ -89,20 +88,19 @@ footer {
   width: 100%;
   text-align: left;
   font: bold 16px sans-serif;
-  padding: 50px 50px 60px 50px;
+  padding: 50px 50px 40px 50px;
   margin-top: 80px;
 }
 
 .footer-top {
-  padding: 80px 0 50px 0;
   position: relative;
   font-family: "Montserrat", sans-serif;
-  font-size: 6rem;
+  font-size:5.8vw;
   text-align: center;
   -webkit-text-stroke-color: blue;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
-  margin-bottom: 100px;
+  margin: 100px;
 }
 
 .footer .footer-left,
@@ -121,12 +119,6 @@ footer {
 .footer h3 {
   color: white;
   margin: 0;
-}
-
-/* Plastelinas logo for footer */
-
-.footer .footer-left img {
-  width: 30%;
 }
 
 /* Links in footer */
@@ -202,6 +194,7 @@ footer {
   font-weight: normal;
   font-size: 14px;
   line-height: 2;
+  text-align: left;
 }
 
 /* Right footer side */
@@ -251,9 +244,58 @@ footer {
 }
 
 
-/* Responsive part for plastelinas footer */
+/* Big Screen Devices View */
 
-@media (max-width: 880px) {
+@media (max-width: 1024px) {
+
+  .footer .footer-left,
+  .footer .footer-center,
+  .footer .footer-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-img{
+    width: 200px;
+    height: 30px;
+  }
+
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+
+  .footer-mail, 
+  .footer-phone,
+  .footer-map{
+    margin-top: 50px;
+  }
+
+  header {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .logo {
+    margin: 50px;
+    width: 200px;
+    height: 30px;
+  }
+
+  .nav_links li a{
+    margin: 5px;
+  }
+
+  button{
+    margin: 50px;
+  }
+}
+
+/* Footer end */
+
+/* Small Screen Devices View */
+
+@media (max-width: 500px) {
 
   .footer .footer-left,
   .footer .footer-center,
@@ -262,12 +304,38 @@ footer {
     width: 100%;
     margin-bottom: 40px;
     text-align: center;
+    bottom: 0;
+  }
+
+  .footer-top{
+    text-align: left;
   }
 
   .footer .footer-center i {
     margin-left: 0;
   }
 
-}
+  header {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
 
-/* Footer end */
+  .logo {
+    margin: 50px;
+    width: 200px;
+    height: 30px;
+  }
+
+  .nav_links li{
+    padding: 5px;
+  }
+
+  .nav_links a{
+    font-size: 13px;
+  }
+
+  button{
+    margin: 50px;
+  }
+}
