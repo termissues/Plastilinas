@@ -1,20 +1,8 @@
 ## About
-_Creating a website for UAB Plastilinas | 2021_
+I tried to create a website carcass for an advertisement company and I chose **UAB Plastilinas**. <br>
+Therefore the company declined this offer because they needed another type of product. <br> Nevertheless, I got some experience and I'm really happy with this small carcass and how it turned out. <br><br>
+_This webpage carcass is public and free to use._
+<br><br>
 
-## Ideas
-* Should add some animations and transitions
-* More on hover functions and particles (if possible a JS game)
-* Carousel is boring, so we should think about something new
-
-## Plan of finishing it
-* Create and fully finish a website 
-* Localhost it on XAMPP
-* Add it to my Wordpress
-* Add PHP functions
-* Make it easy to use/edit
-* Make post/news feed
-* Add safety plugins
-* Finish the project with a smile
-
-## First peek at header and footer
+## Peek at the product
 <img src="https://i.imgur.com/FOL37Qu.png">
